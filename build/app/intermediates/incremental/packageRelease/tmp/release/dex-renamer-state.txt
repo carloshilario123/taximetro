@@ -1,0 +1,4 @@
+#Sun Jul 09 13:36:41 EST 2023
+base.0=E\:\\Proyectos\\taximetro\\taximetro\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

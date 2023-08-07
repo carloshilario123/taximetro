@@ -1,0 +1,4 @@
+#Fri Jul 28 02:43:48 EST 2023
+base.0=E\:\\Proyectos\\taximetro\\taximetro\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

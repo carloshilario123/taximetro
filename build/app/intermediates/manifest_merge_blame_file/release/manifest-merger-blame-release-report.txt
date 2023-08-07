@@ -1,0 +1,249 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.taximetro"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+11-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+12-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+13-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+14    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+14-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+14-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+15    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+15-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+15-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+16-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-68
+17-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+26
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <permission
+31-->[androidx.core:core:1.9.0] C:\Users\carlos\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.taximetro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.9.0] C:\Users\carlos\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.9.0] C:\Users\carlos\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.taximetro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.9.0] C:\Users\carlos\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.9.0] C:\Users\carlos\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+38-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:4:9-42
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] C:\Users\carlos\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+40        android:icon="@mipmap/ic_launcher"
+40-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:5:9-43
+41        android:label="taximetro" >
+41-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:3:9-34
+42        <activity
+42-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:6:9-26:20
+43            android:name="com.example.taximetro.MainActivity"
+43-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:7:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:11:13-163
+45            android:exported="true"
+45-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:8:13-36
+46            android:hardwareAccelerated="true"
+46-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:12:13-47
+47            android:launchMode="singleTop"
+47-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:9:13-43
+48            android:theme="@style/LaunchTheme"
+48-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:10:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:13:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:18:13-21:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:19:15-70
+59                android:resource="@style/NormalTheme" />
+59-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:20:15-52
+60
+61            <intent-filter>
+61-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:22:13-25:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:23:17-68
+62-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:23:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:24:17-76
+64-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:24:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:29:9-31:33
+72            android:name="flutterEmbedding"
+72-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:30:13-44
+73            android:value="2" />
+73-->E:\Proyectos\taximetro\taximetro\android\app\src\main\AndroidManifest.xml:31:13-30
+74
+75        <service
+75-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:56
+76            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+76-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-77
+77            android:enabled="true"
+77-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-35
+78            android:exported="false"
+78-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-37
+79            android:foregroundServiceType="location" />
+79-->[:geolocator_android] E:\Proyectos\taximetro\taximetro\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-53
+80
+81        <receiver
+81-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+82            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+82-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-91
+83            android:exported="false" />
+83-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+84        <receiver
+84-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:40
+85            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+85-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-97
+86            android:exported="false" />
+86-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+87        <receiver
+87-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+88            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+88-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-101
+89            android:exported="false" >
+89-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+90            <intent-filter>
+90-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30:29
+91                <action android:name="android.intent.action.BOOT_COMPLETED" />
+91-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+91-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+92                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+92-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-84
+92-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-81
+93                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+93-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+93-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+94                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+94-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-82
+94-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-79
+95            </intent-filter>
+96        </receiver>
+97
+98        <service
+98-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-18:44
+99            android:name="id.flutter.flutter_background_service.BackgroundService"
+99-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-83
+100            android:enabled="true"
+100-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-35
+101            android:exported="true"
+101-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-36
+102            android:stopWithTask="false" />
+102-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-41
+103
+104        <receiver
+104-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-23:39
+105            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+105-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-82
+106            android:enabled="true"
+106-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-35
+107            android:exported="true" />
+107-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+108        <receiver
+108-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-32:20
+109            android:name="id.flutter.flutter_background_service.BootReceiver"
+109-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-78
+110            android:enabled="true"
+110-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-35
+111            android:exported="true" >
+111-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+112            <intent-filter>
+112-->[:flutter_background_service_android] E:\Proyectos\taximetro\taximetro\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-31:29
+113                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+113-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+114                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+114-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+114-->[:flutter_local_notifications] E:\Proyectos\taximetro\taximetro\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+115            </intent-filter>
+116        </receiver>
+117
+118        <uses-library
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\carlos\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+119            android:name="androidx.window.extensions"
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\carlos\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\carlos\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+121        <uses-library
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\carlos\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+122            android:name="androidx.window.sidecar"
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\carlos\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+123            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\carlos\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+124        <uses-library
+124-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+125            android:name="org.apache.http.legacy"
+125-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+126            android:required="false" />
+126-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\d7f7973f000d5c8945a05a4db1417b66\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+127
+128        <activity
+128-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+129-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+132
+133        <meta-data
+133-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+134            android:name="com.google.android.gms.version"
+134-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+135            android:value="@integer/google_play_services_version" />
+135-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\carlos\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+136    </application>
+137
+138</manifest>
